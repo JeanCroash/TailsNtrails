@@ -30,8 +30,16 @@ header {
     box-shadow: 0 3px 3px #3a3a3a;
 }
 
+header a {
+    text-decoration: 0;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
 }
 
 /* Main */
