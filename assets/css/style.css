@@ -25,6 +25,10 @@ header {
     background-color:teal;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
 /* Main */
 main {
     background-color: #ffdab9;
