@@ -29,6 +29,9 @@ header {
     width: 100%;
     box-shadow: 0 3px 3px #3a3a3a;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -58,15 +61,29 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* navbar styles with dropdown toggle */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffdab9;
+    background-color: teal;
     left: 0;
     padding: 0 1.5rem;
     box-shadow: 0 1.5px 1.5px #3a3a3a;
     display: none;
+    top: 100%;
     width: 100%
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main */
@@ -74,9 +91,33 @@ main {
     background-color: #ffdab9;
     /* making main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 60px;
 }
 
 /* Footer */
 footer {
     background-color: #228b22;
+}
+
+/* Media query: tablets and larger devices (768px and up*/
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
