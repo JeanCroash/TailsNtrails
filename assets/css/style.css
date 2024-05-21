@@ -95,8 +95,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: #228b22;
+#social-networks {
+text-align: center;
+padding: 20px 0;
+justify-content: space-evenly;
+list-style-type: none;
+display: flex;
+background-color: orange;
+}
+
+#social-networks i {
+    font-size: 165%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger devices (768px and up*/
