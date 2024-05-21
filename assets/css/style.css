@@ -88,10 +88,17 @@ nav {
 
 /* Main */
 main {
-    background-color: #ffdab9;
-    /* making main element take up any surplus space to push footer down */
+       /* making main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 47px;
+}
+
+/* Hero section styles */
+
+#hero {
+    height: 750px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
