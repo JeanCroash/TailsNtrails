@@ -199,6 +199,11 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 }
 
 
