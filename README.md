@@ -73,7 +73,10 @@ Our website is designed to provide you with all the information you need to join
 ### **Content**
 
 * Home Page Design:
-    - Used the following website to change the opacity of the homepage background photo "https://www.luxa.org/image/change-opacity"
+
+     - My project was based on Love Running walkthrough project, where I gained knowledge for the coding used in Tails N Trails project.
+     - Used the following website to change the opacity of the homepage background photo "https://www.luxa.org/image/change-opacity"
+  
 
 * Readme File:
     - Used chat GPT to word "https://chatgpt.com/"
