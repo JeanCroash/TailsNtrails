@@ -204,6 +204,10 @@ main {
 
 /* Gallery page */
 
+.hidden-heading {
+    display: none;
+}
+
 #photos {
     display: flex;
     flex-wrap: wrap;
