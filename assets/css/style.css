@@ -17,12 +17,14 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Freeman', sans-serif;
-    
+
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Lato', sans-serif;
-    text-transform:capitalize;
+    text-transform: capitalize;
     letter-spacing: 2px;
     color: #252525;
 }
@@ -31,7 +33,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color:teal;
+    background-color: teal;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -54,11 +56,11 @@ header a {
     letter-spacing: 3.75px;
     list-style-type: none;
     text-align: center;
-    }
+}
 
-#menu > li {
+#menu>li {
     margin-bottom: 1.1em;
-} 
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -91,7 +93,7 @@ nav {
 
 /* Main */
 main {
-       /* making main element take up any surplus space to push footer down */
+    /* making main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -107,8 +109,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7)
-    font-size: 95%;
+    background-color: rgba(241, 109, 107, .7) font-size:95%;
     bottom: 565px;
     position: absolute;
     width: 80%;
@@ -117,7 +118,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffff
 }
 
@@ -139,12 +141,12 @@ main {
 
 /* Footer */
 #social-networks {
-text-align: center;
-padding: 20px 0;
-justify-content: space-evenly;
-list-style-type: none;
-display: flex;
-background-color: orange;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+    background-color: orange;
 }
 
 #social-networks i {
@@ -155,6 +157,7 @@ background-color: orange;
 
 /* Media query: tablets and larger devices (768px and up*/
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -163,11 +166,12 @@ background-color: orange;
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -192,24 +196,24 @@ main {
 /* Reasons Section */
 #benefits-physical,
 #benefits-mental {
-    display:flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-#benefits-physical > div,
-#benefits-mental > div {
-    width: 75%;    
+#benefits-physical>div,
+#benefits-mental>div {
+    width: 75%;
 }
 
-#benefits-mental > div {
+#benefits-mental>div {
     text-align: end;
     align-self: flex-end;
 }
 
 /* Large devices laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
