@@ -18,7 +18,7 @@ Our website is designed to provide you with all the information you need to join
   - A fully responsive navigation bar can be seen across all three pages. It includes links to the Home page, Gallery (Pawtraits), and Sign-Up page, and it's identical on each page. This design ensures that users can effortlessly navigate from page to page across all devices without the arduous task of hitting the ‘back’ button.
 
   <p align="center">
-    <img src="README-images/NavigationBar-screenshot.JPG" title="Navigation Bar" width="85%">
+    <img src="README-images/NavigationBar-screenshot.JPG" title="Navigation Bar" width="100%">
   </p>
 
 - **Home Page**
